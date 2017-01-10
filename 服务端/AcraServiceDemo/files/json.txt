@@ -1,0 +1,284 @@
+{
+    "ANDROID_VERSION": "4.4.2",
+    "APP_VERSION_CODE": 1,
+    "APP_VERSION_NAME": "1.0",
+    "AVAILABLE_MEM_SIZE": 872087552,
+    "BRAND": "Honor",
+    "BUILD": {
+        "BOARD": "BalongV8R1SFT",
+        "BOOTLOADER": "unknown",
+        "BRAND": "Honor",
+        "CPU_ABI": "armeabi-v7a",
+        "CPU_ABI2": "armeabi",
+        "DEVICE": "hwChe2",
+        "DISPLAY": "Che2-UL00 V100R001CHNC00B384",
+        "FINGERPRINT": "Honor/Che2-UL00/hwChe2:4.4.2/HonorChe2-UL00/C00B384:user/ota-rel-keys,release-keys",
+        "HARDWARE": "hi6210sft",
+        "HIDE_PRODUCT_INFO": false,
+        "HOST": "localhost#1",
+        "ID": "HonorChe2-UL00",
+        "IS_DEBUGGABLE": true,
+        "MANUFACTURER": "HUAWEI",
+        "MODEL": "Che2-UL00",
+        "PRODUCT": "Che2-UL00",
+        "RADIO": "unknown",
+        "SERIAL": "DU2YYB14CN021028",
+        "TAGS": "ota-rel-keys,release-keys",
+        "TIME": 1438582255000,
+        "TYPE": "user",
+        "UNKNOWN": "unknown",
+        "USER": "android",
+        "VERSION": {
+            "CODENAME": "REL",
+            "INCREMENTAL": "C00B384",
+            "RELEASE": "4.4.2",
+            "RESOURCES_SDK_INT": 19,
+            "SDK": 19,
+            "SDK_INT": 19
+        }
+    },
+    "BUILD_CONFIG": {
+        "$change": "",
+        "APPLICATION_ID": "com.gaoyuan.acraclientdemo",
+        "BUILD_TYPE": "debug",
+        "DEBUG": true,
+        "FLAVOR": "",
+        "VERSION_CODE": 1,
+        "VERSION_NAME": "1.0",
+        "serialVersionUID": 0
+    },
+    "CRASH_CONFIGURATION": {
+        "compatScreenHeightDp": 546,
+        "compatScreenWidthDp": 320,
+        "compatSmallestScreenWidthDp": 320,
+        "densityDpi": 320,
+        "extraConfig": "suim:1",
+        "fontScale": "1.0",
+        "hardKeyboardHidden": "HARDKEYBOARDHIDDEN_YES",
+        "keyboard": "KEYBOARD_NOKEYS",
+        "keyboardHidden": "KEYBOARDHIDDEN_NO",
+        "locale": "zh_CN",
+        "mcc": 460,
+        "mnc": 1,
+        "navigation": "NAVIGATION_NONAV",
+        "navigationHidden": "NAVIGATIONHIDDEN_YES",
+        "orientation": "ORIENTATION_PORTRAIT",
+        "screenHeightDp": 615,
+        "screenLayout": "SCREENLAYOUT_SIZE_NORMAL+SCREENLAYOUT_LONG_YES+SCREENLAYOUT_LAYOUTDIR_LTR",
+        "screenWidthDp": 360,
+        "seq": 37,
+        "smallestScreenWidthDp": 360,
+        "touchscreen": "TOUCHSCREEN_FINGER",
+        "uiMode": "UI_MODE_TYPE_NORMAL+UI_MODE_NIGHT_NO",
+        "userSetLocale": true
+    },
+    "CUSTOM_DATA": {},
+    "DEVICE_FEATURES": {
+        "android.hardware.bluetooth": true,
+        "android.hardware.bluetooth_le": true,
+        "android.hardware.camera": true,
+        "android.hardware.camera.any": true,
+        "android.hardware.camera.autofocus": true,
+        "android.hardware.camera.flash": true,
+        "android.hardware.camera.front": true,
+        "android.hardware.faketouch": true,
+        "android.hardware.location": true,
+        "android.hardware.location.gps": true,
+        "android.hardware.location.network": true,
+        "android.hardware.microphone": true,
+        "android.hardware.screen.landscape": true,
+        "android.hardware.screen.portrait": true,
+        "android.hardware.sensor.accelerometer": true,
+        "android.hardware.sensor.compass": true,
+        "android.hardware.sensor.gyroscope": true,
+        "android.hardware.sensor.light": true,
+        "android.hardware.sensor.proximity": true,
+        "android.hardware.telephony": true,
+        "android.hardware.telephony.gsm": true,
+        "android.hardware.touchscreen": true,
+        "android.hardware.touchscreen.multitouch": true,
+        "android.hardware.touchscreen.multitouch.distinct": true,
+        "android.hardware.usb.accessory": true,
+        "android.hardware.usb.host": true,
+        "android.hardware.wifi": true,
+        "android.hardware.wifi.direct": true,
+        "android.software.app_widgets": true,
+        "android.software.device_admin": true,
+        "android.software.home_screen": true,
+        "android.software.input_methods": true,
+        "android.software.live_wallpaper": true,
+        "android.software.sip": true,
+        "android.software.sip.voip": true,
+        "glEsVersion": "2.0"
+    },
+    "DISPLAY": {
+        "0": {
+            "currentSizeRange": {
+                "largest": "[1280,1230]",
+                "smallest": "[720,670]"
+            },
+            "flags": "FLAG_SUPPORTS_PROTECTED_BUFFERS+FLAG_SECURE",
+            "height": 1280,
+            "isValid": true,
+            "metrics": {
+                "density": "2.0",
+                "densityDpi": 320,
+                "heightPixels": 1280,
+                "scaledDensity": "x2.0",
+                "widthPixels": 720,
+                "xdpi": 268.941,
+                "ydpi": 268.694
+            },
+            "name": "内置屏幕",
+            "orientation": 0,
+            "pixelFormat": 1,
+            "realMetrics": {
+                "density": "2.0",
+                "densityDpi": 320,
+                "heightPixels": 1280,
+                "scaledDensity": "x2.0",
+                "widthPixels": 720,
+                "xdpi": 268.941,
+                "ydpi": 268.694
+            },
+            "realSize": "[720,1280]",
+            "rectSize": "[0,0,720,1280]",
+            "refreshRate": 60.000004,
+            "rotation": "ROTATION_0",
+            "size": "[720,1280]",
+            "width": 720
+        }
+    },
+    "DUMPSYS_MEMINFO": "Permission Denial: can't dump meminfo from from pid=21028, uid=10154 without permission android.permission.DUMP",
+    "ENVIRONMENT": {
+        "getDataDirectory": "/data",
+        "getDownloadCacheDirectory": "/cache",
+        "getEmulatedStorageObbSource": "/mnt/shell/emulated/obb",
+        "getEnvEmulatedStorageSource": "EMULATED_STORAGE_SOURCE",
+        "getEnvEmulatedStorageTarget": "EMULATED_STORAGE_TARGET",
+        "getEnvExternalStorage": "EXTERNAL_STORAGE",
+        "getEnvMediaStorage": "MEDIA_STORAGE",
+        "getExternalDirsForApp": "[Ljava.io.File;@41d341a0",
+        "getExternalStorageDirectory": "/storage/sdcard1",
+        "getExternalStorageState": "mounted",
+        "getInternalStoragePath": "/storage/emulated/0",
+        "getLegacyExternalStorageDirectory": "/storage/emulated/0",
+        "getLegacyExternalStorageObbDirectory": "/storage/emulated/0/Android/obb",
+        "getMediaStorageDirectory": "/data/media/0",
+        "getRootDirectory": "/system",
+        "getSecondaryStorage": "SECONDARY_STORAGE",
+        "getSecureDataDirectory": "/data",
+        "getSystemSecureDirectory": "/data/system",
+        "getUmsStoragePath": "/storage/sdcard1",
+        "isEncryptedFilesystemEnabled": false,
+        "isExternalStorageEmulated": true,
+        "isExternalStorageRemovable": false,
+        "isUmsStorageMounted": true
+    },
+    "FILE_PATH": "/data/data/com.gaoyuan.acraclientdemo/files",
+    "INITIAL_CONFIGURATION": {
+        "compatScreenHeightDp": 546,
+        "compatScreenWidthDp": 320,
+        "compatSmallestScreenWidthDp": 320,
+        "densityDpi": 320,
+        "extraConfig": "suim:1",
+        "fontScale": "1.0",
+        "hardKeyboardHidden": "HARDKEYBOARDHIDDEN_YES",
+        "keyboard": "KEYBOARD_NOKEYS",
+        "keyboardHidden": "KEYBOARDHIDDEN_NO",
+        "locale": "zh_CN",
+        "mcc": 460,
+        "mnc": 1,
+        "navigation": "NAVIGATION_NONAV",
+        "navigationHidden": "NAVIGATIONHIDDEN_YES",
+        "orientation": "ORIENTATION_PORTRAIT",
+        "screenHeightDp": 615,
+        "screenLayout": "SCREENLAYOUT_SIZE_NORMAL+SCREENLAYOUT_LONG_YES+SCREENLAYOUT_LAYOUTDIR_LTR",
+        "screenWidthDp": 360,
+        "seq": 37,
+        "smallestScreenWidthDp": 360,
+        "touchscreen": "TOUCHSCREEN_FINGER",
+        "uiMode": "UI_MODE_TYPE_NORMAL+UI_MODE_NIGHT_NO",
+        "userSetLocale": true
+    },
+    "INSTALLATION_ID": "6ecc98f0-523d-4197-9fbf-4b560ddb996b",
+    "LOGCAT": "",
+    "PACKAGE_NAME": "com.gaoyuan.acraclientdemo",
+    "PHONE_MODEL": "Che2-UL00",
+    "PRODUCT": "Che2-UL00",
+    "REPORT_ID": "b1a88335-dc80-49bb-8173-6d5967a440bd",
+    "SHARED_PREFERENCES": {
+        "": true,
+        "default": {
+            "acra": {
+                "lastVersionNr": 1,
+                "legacyAlreadyConvertedTo4": {
+                    "8": {
+                        "0": true
+                    }
+                }
+            }
+        }
+    },
+    "STACK_TRACE": "java.lang.IllegalStateException: Could not execute method for android:onClick
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:293)
+	at android.view.View.performClick(View.java:4457)
+	at android.view.View$PerformClick.run(View.java:18496)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5291)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:849)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+	... 14 more
+java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+	at android.view.View.performClick(View.java:4457)
+	at android.view.View$PerformClick.run(View.java:18496)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5291)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:849)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+	at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+	... 14 more
+java.lang.NullPointerException
+	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+	at android.view.View.performClick(View.java:4457)
+	at android.view.View$PerformClick.run(View.java:18496)
+	at android.os.Handler.handleCallback(Handler.java:733)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:136)
+	at android.app.ActivityThread.main(ActivityThread.java:5291)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:849)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+	at dalvik.system.NativeStart.main(Native Method)
+",
+    "TOTAL_MEM_SIZE": 4071030784,
+    "USER_APP_START_DATE": "2017-01-10T12:59:15.720+08:00",
+    "USER_COMMENT": "垃圾",
+    "USER_CRASH_DATE": "2017-01-10T12:59:17.734+08:00",
+    "USER_EMAIL": ""
+}

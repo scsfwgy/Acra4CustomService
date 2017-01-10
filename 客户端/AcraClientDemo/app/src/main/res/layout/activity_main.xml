@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="nullPoniter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="null poniter"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+    <Button
+        android:onClick="outOfBounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="out of bounds"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+    <Button
+        android:onClick="Anr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ANR"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/am_btn_cast1"
+        android:onClick="classCast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="class cast"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+</LinearLayout>

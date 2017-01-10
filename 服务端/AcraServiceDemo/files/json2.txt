@@ -1,0 +1,544 @@
+{
+    "ANDROID_VERSION": "5.0.2",
+    "APP_VERSION_CODE": 1,
+    "APP_VERSION_NAME": "1.0",
+    "AVAILABLE_MEM_SIZE": 590671872,
+    "BRAND": "htc",
+    "BUILD": {
+        "BOARD": "msm8939",
+        "BOOTLOADER": "3.19.0.0000",
+        "BRAND": "htc",
+        "CPU_ABI": "arm64-v8a",
+        "CPU_ABI2": "",
+        "DEVICE": "htc_m8qltuhl",
+        "DISPLAY": "LRX22G release-keys",
+        "FINGERPRINT": "htc/m8qltuhl_htccn_chs_2/htc_m8qltuhl:5.0.2/LRX22G/539101.10:user/release-keys",
+        "HARDWARE": "qcom",
+        "HOST": "ABM104",
+        "ID": "LRX22G",
+        "IS_DEBUGGABLE": false,
+        "MANUFACTURER": "HTC",
+        "MODEL": "HTC M8si",
+        "PRODUCT": "m8qltuhl_htccn_chs_2",
+        "RADIO": "unknown",
+        "SERIAL": "HT56BYS00286",
+        "STAGE": 2,
+        "SUPPORTED_32_BIT_ABIS": "[armeabi-v7a, armeabi]",
+        "SUPPORTED_64_BIT_ABIS": "[arm64-v8a]",
+        "SUPPORTED_ABIS": "[arm64-v8a, armeabi-v7a, armeabi]",
+        "TAGS": "release-keys",
+        "TIME": 1439456496000,
+        "TYPE": "user",
+        "UNKNOWN": "unknown",
+        "USER": "buildteam",
+        "VERSION": {
+            "ACTIVE_CODENAMES": "[]",
+            "CODENAME": "REL",
+            "INCREMENTAL": "539101.10",
+            "RELEASE": "5.0.2",
+            "RESOURCES_SDK_INT": 21,
+            "SDK": 21,
+            "SDK_INT": 21
+        }
+    },
+    "BUILD_CONFIG": {
+        "$change": "",
+        "APPLICATION_ID": "com.gaoyuan.acraclientdemo",
+        "BUILD_TYPE": "debug",
+        "DEBUG": true,
+        "FLAVOR": "",
+        "VERSION_CODE": 1,
+        "VERSION_NAME": "1.0",
+        "serialVersionUID": 0
+    },
+    "CRASH_CONFIGURATION": {
+        "compatScreenHeightDp": 504,
+        "compatScreenWidthDp": 320,
+        "compatSmallestScreenWidthDp": 320,
+        "densityDpi": 480,
+        "fontChange": 0,
+        "fontScale": "1.0",
+        "hardKeyboardHidden": "HARDKEYBOARDHIDDEN_YES",
+        "keyboard": "KEYBOARD_NOKEYS",
+        "keyboardHidden": "KEYBOARDHIDDEN_NO",
+        "locale": "en_US",
+        "mcc": 460,
+        "mnc": 2,
+        "navigation": "NAVIGATION_NONAV",
+        "navigationHidden": "NAVIGATIONHIDDEN_YES",
+        "orientation": "ORIENTATION_PORTRAIT",
+        "screenHeightDp": 567,
+        "screenLayout": "SCREENLAYOUT_SIZE_NORMAL+SCREENLAYOUT_LONG_NO+SCREENLAYOUT_LAYOUTDIR_LTR",
+        "screenWidthDp": 360,
+        "seq": 8,
+        "smallestScreenWidthDp": 360,
+        "touchscreen": "TOUCHSCREEN_FINGER",
+        "uiMode": "UI_MODE_TYPE_NORMAL+UI_MODE_NIGHT_NO",
+        "userSetLocale": true
+    },
+    "CUSTOM_DATA": {},
+    "DEVICE_FEATURES": {
+        "android.hardware.audio.output": true,
+        "android.hardware.bluetooth": true,
+        "android.hardware.bluetooth_le": true,
+        "android.hardware.camera": true,
+        "android.hardware.camera.any": true,
+        "android.hardware.camera.autofocus": true,
+        "android.hardware.camera.flash": true,
+        "android.hardware.camera.front": true,
+        "android.hardware.faketouch": true,
+        "android.hardware.location": true,
+        "android.hardware.location.gps": true,
+        "android.hardware.location.network": true,
+        "android.hardware.microphone": true,
+        "android.hardware.screen.landscape": true,
+        "android.hardware.screen.portrait": true,
+        "android.hardware.sensor.accelerometer": true,
+        "android.hardware.sensor.compass": true,
+        "android.hardware.sensor.gyroscope": true,
+        "android.hardware.sensor.light": true,
+        "android.hardware.sensor.proximity": true,
+        "android.hardware.sensor.stepcounter": true,
+        "android.hardware.sensor.stepdetector": true,
+        "android.hardware.telephony": true,
+        "android.hardware.telephony.gsm": true,
+        "android.hardware.touchscreen": true,
+        "android.hardware.touchscreen.multitouch": true,
+        "android.hardware.touchscreen.multitouch.distinct": true,
+        "android.hardware.touchscreen.multitouch.jazzhand": true,
+        "android.hardware.usb.accessory": true,
+        "android.hardware.usb.host": true,
+        "android.hardware.wifi": true,
+        "android.hardware.wifi.direct": true,
+        "android.software.app_widgets": true,
+        "android.software.backup": true,
+        "android.software.connectionservice": true,
+        "android.software.device_admin": true,
+        "android.software.home_screen": true,
+        "android.software.input_methods": true,
+        "android.software.live_wallpaper": true,
+        "android.software.print": true,
+        "android.software.sip": true,
+        "android.software.sip.voip": true,
+        "android.software.voice_recognizers": true,
+        "android.software.webview": true,
+        "com.cisco.anyconnect.permissions.patch.htc": true,
+        "com.htc.sensor.hallsensor": true,
+        "com.htc.sensor.sensorhub": true,
+        "com.htc.software.HTC": true,
+        "com.htc.software.IHSense": true,
+        "com.htc.software.M8QLTUHL": true,
+        "com.htc.software.Sense6.0": true,
+        "com.htc.software.hdk": true,
+        "com.htc.software.hdk2": true,
+        "glEsVersion": "3.0"
+    },
+    "DISPLAY": {
+        "0": {
+            "currentSizeRange": {
+                "largest": "[1794,1701]",
+                "smallest": "[1080,1005]"
+            },
+            "flags": "FLAG_SUPPORTS_PROTECTED_BUFFERS+FLAG_SECURE",
+            "height": 1776,
+            "isValid": true,
+            "metrics": {
+                "density": "3.0",
+                "densityDpi": 480,
+                "heightPixels": 1776,
+                "scaledDensity": "x3.0",
+                "widthPixels": 1080,
+                "xdpi": 442.451,
+                "ydpi": 443.345
+            },
+            "name": "Built-in Screen",
+            "orientation": 0,
+            "pixelFormat": 1,
+            "realMetrics": {
+                "density": "3.0",
+                "densityDpi": 480,
+                "heightPixels": 1920,
+                "scaledDensity": "x3.0",
+                "widthPixels": 1080,
+                "xdpi": 442.451,
+                "ydpi": 443.345
+            },
+            "realSize": "[1080,1920]",
+            "rectSize": "[0,0,1080,1776]",
+            "refreshRate": "60.0",
+            "rotation": "ROTATION_0",
+            "size": "[1080,1776]",
+            "width": 1080
+        }
+    },
+    "DUMPSYS_MEMINFO": "Permission Denial: can't dump meminfo from from pid=30978, uid=10165 without permission android.permission.DUMP",
+    "ENVIRONMENT": {
+        "getDataDirectory": "/data",
+        "getDefaultStorageDirectory": "/storage/emulated/0",
+        "getDownloadCacheDirectory": "/cache",
+        "getDownloadUserCacheDirectory": "/data/cache",
+        "getEmulatedStorageObbSource": "/mnt/shell/emulated/obb",
+        "getExternalStorageDirectory": "/storage/emulated/0",
+        "getExternalStorageState": "mounted",
+        "getLegacyExternalStorageDirectory": "/storage/emulated/legacy",
+        "getLegacyExternalStorageObbDirectory": "/storage/emulated/legacy/Android/obb",
+        "getMediaStorageDirectory": "/data/media/0",
+        "getOemDirectory": "/oem",
+        "getPhoneStorageDirectory": "/storage/emmc",
+        "getPhoneStorageState": "removed",
+        "getRemovableStorageDirectory": "/storage/ext_sd",
+        "getRemovableStorageState": "mounted",
+        "getRootDirectory": "/system",
+        "getSecureDataDirectory": "/data",
+        "getSupportedStorages": 1,
+        "getSystemSecureDirectory": "/data/system",
+        "getUsbDeviceDirectory": "/storage/usb",
+        "getUsbDeviceState": "removed",
+        "getVendorDirectory": "/vendor",
+        "getVirtualRemovableStorageDirectory": "/storage/ext_sd",
+        "getVirtualUsbDeviceDirectory": "/storage/usb",
+        "isEncryptedFilesystemEnabled": false,
+        "isExternalStorageEmulated": true,
+        "isExternalStorageRemovable": false
+    },
+    "FILE_PATH": "/data/data/com.gaoyuan.acraclientdemo/files",
+    "INITIAL_CONFIGURATION": {
+        "compatScreenHeightDp": 504,
+        "compatScreenWidthDp": 320,
+        "compatSmallestScreenWidthDp": 320,
+        "densityDpi": 480,
+        "fontChange": 0,
+        "fontScale": "1.0",
+        "hardKeyboardHidden": "HARDKEYBOARDHIDDEN_YES",
+        "keyboard": "KEYBOARD_NOKEYS",
+        "keyboardHidden": "KEYBOARDHIDDEN_NO",
+        "locale": "en_US",
+        "mcc": 460,
+        "mnc": 2,
+        "navigation": "NAVIGATION_NONAV",
+        "navigationHidden": "NAVIGATIONHIDDEN_YES",
+        "orientation": "ORIENTATION_PORTRAIT",
+        "screenHeightDp": 567,
+        "screenLayout": "SCREENLAYOUT_SIZE_NORMAL+SCREENLAYOUT_LONG_NO+SCREENLAYOUT_LAYOUTDIR_LTR",
+        "screenWidthDp": 360,
+        "seq": 8,
+        "smallestScreenWidthDp": 360,
+        "touchscreen": "TOUCHSCREEN_FINGER",
+        "uiMode": "UI_MODE_TYPE_NORMAL+UI_MODE_NIGHT_NO",
+        "userSetLocale": true
+    },
+    "INSTALLATION_ID": "6b29ea89-c929-487f-ac64-55ad7e0c87ed",
+    "LOGCAT": "--------- beginning of main
+01-10 13:47:45.453 I/art     (30797): Late-enabling -Xcheck:jni
+01-10 13:47:45.453 I/art     (30797): VMHOOK: rlim_cur : 0 pid:30797
+01-10 13:47:45.523 I/InstantRun(30797): Instant Run Runtime started. Android package is com.gaoyuan.acraclientdemo, real application class is com.gaoyuan.acraclientdemo.MyApp.
+01-10 13:47:45.523 W/InstantRun(30797): No instant run dex files added to classpath
+01-10 13:47:45.563 I/ACRA    (30797): ACRA is enabled for com.gaoyuan.acraclientdemo, initializing...
+01-10 13:47:45.653 I/art     (30820): Late-enabling -Xcheck:jni
+01-10 13:47:45.653 I/art     (30820): VMHOOK: rlim_cur : 0 pid:30820
+01-10 13:47:45.713 I/InstantRun(30820): Instant Run Runtime started. Android package is com.gaoyuan.acraclientdemo, real application class is com.gaoyuan.acraclientdemo.MyApp.
+01-10 13:47:45.723 W/InstantRun(30820): No instant run dex files added to classpath
+01-10 13:47:45.773 W/art     (30797): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+01-10 13:47:45.823 I/ACRA    (30820): Sending report /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:45:58.764+08:00.stacktrace
+01-10 13:47:45.893 D/libc    (30820): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:45.893 D/libc    (30820): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:45.893 D/libc    (30820): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:45.893 D/libc    (30820): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:45.903 D/Atlas   (30797): Validating map...
+01-10 13:47:45.943 D/FindExtension(30797): FindExtension: before mHardwareRenderer.initialize, mSurface.isValid() = true
+01-10 13:47:45.943 I/Adreno-EGL(30797): <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: LNXBUILD_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006+PATCH[ES]_msm8916_64_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006__release_ENGG (Iba0e932ba2)
+01-10 13:47:45.943 I/Adreno-EGL(30797): OpenGL ES Shader Compiler Version: E031.25.03.01
+01-10 13:47:45.943 I/Adreno-EGL(30797): Build Date: 03/09/15 Mon
+01-10 13:47:45.943 I/Adreno-EGL(30797): Local Branch: 
+01-10 13:47:45.943 I/Adreno-EGL(30797): Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006
+01-10 13:47:45.943 I/Adreno-EGL(30797): Local Patches: 7ff34bcc0bbd0887eacd18980e911eb61bd8f4e0 es20: fix apilog_close calling sequence in context_delete
+01-10 13:47:45.943 I/Adreno-EGL(30797):                  d74aa161a12b9c6fc6332151
+01-10 13:47:46.073 E/ACRA    (30820): Failed to send crash report for /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:45:58.764+08:00.stacktrace
+01-10 13:47:46.073 E/ACRA    (30820): org.acra.sender.ReportSenderException: Error while sending JSON report via Http POST
+01-10 13:47:46.073 E/ACRA    (30820): 	at org.acra.sender.HttpSender.send(HttpSender.java:239)
+01-10 13:47:46.073 E/ACRA    (30820): 	at org.acra.sender.ReportDistributor.sendCrashReport(ReportDistributor.java:102)
+01-10 13:47:46.073 E/ACRA    (30820): 	at org.acra.sender.ReportDistributor.distribute(ReportDistributor.java:70)
+01-10 13:47:46.073 E/ACRA    (30820): 	at org.acra.sender.SenderService.onHandleIntent(SenderService.java:69)
+01-10 13:47:46.073 E/ACRA    (30820): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+01-10 13:47:46.073 E/ACRA    (30820): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+01-10 13:47:46.073 E/ACRA    (30820): 	at android.os.Looper.loop(Looper.java:155)
+01-10 13:47:46.073 E/ACRA    (30820): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+01-10 13:47:46.073 E/ACRA    (30820): Caused by: java.net.ConnectException: failed to connect to /192.168.1.160 (port 80) after 5000ms: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:46.073 E/ACRA    (30820): 	at libcore.io.IoBridge.isConnected(IoBridge.java:238)
+01-10 13:47:46.073 E/ACRA    (30820): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:171)
+01-10 13:47:46.073 E/ACRA    (30820): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+01-10 13:47:46.073 E/ACRA    (30820): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+01-10 13:47:46.073 E/ACRA    (30820): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+01-10 13:47:46.073 E/ACRA    (30820): 	at java.net.Socket.connect(Socket.java:882)
+01-10 13:47:46.073 E/ACRA    (30820): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:139)
+01-10 13:47:46.073 E/ACRA    (30820): 	at com.android.okhttp.Connection.connect(Connection.java:148)
+01-10 13:47:46.073 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:276)
+01-10 13:47:46.073 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+01-10 13:47:46.073 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+01-10 13:47:46.073 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:106)
+01-10 13:47:46.073 E/ACRA    (30820): 	at org.acra.util.HttpRequest.send(HttpRequest.java:145)
+01-10 13:47:46.073 E/ACRA    (30820): 	at org.acra.sender.HttpSender.send(HttpSender.java:235)
+01-10 13:47:46.073 E/ACRA    (30820): 	... 7 more
+01-10 13:47:46.073 E/ACRA    (30820): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:46.073 E/ACRA    (30820): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+01-10 13:47:46.073 E/ACRA    (30820): 	... 20 more
+01-10 13:47:47.403 E/ACRA    (30797): ACRA caught a IllegalStateException for com.gaoyuan.acraclientdemo
+01-10 13:47:47.403 E/ACRA    (30797): java.lang.IllegalStateException: Could not execute method for android:onClick
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:293)
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.view.View.performClick(View.java:4785)
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.view.View$PerformClick.run(View.java:19869)
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.os.Handler.handleCallback(Handler.java:739)
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.os.Looper.loop(Looper.java:155)
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.app.ActivityThread.main(ActivityThread.java:5721)
+01-10 13:47:47.403 E/ACRA    (30797): 	at java.lang.reflect.Method.invoke(Native Method)
+01-10 13:47:47.403 E/ACRA    (30797): 	at java.lang.reflect.Method.invoke(Method.java:372)
+01-10 13:47:47.403 E/ACRA    (30797): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1029)
+01-10 13:47:47.403 E/ACRA    (30797): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:824)
+01-10 13:47:47.403 E/ACRA    (30797): Caused by: java.lang.reflect.InvocationTargetException
+01-10 13:47:47.403 E/ACRA    (30797): 	at java.lang.reflect.Method.invoke(Native Method)
+01-10 13:47:47.403 E/ACRA    (30797): 	at java.lang.reflect.Method.invoke(Method.java:372)
+01-10 13:47:47.403 E/ACRA    (30797): 	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+01-10 13:47:47.403 E/ACRA    (30797): 	... 10 more
+01-10 13:47:47.403 E/ACRA    (30797): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+01-10 13:47:47.403 E/ACRA    (30797): 	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+01-10 13:47:47.403 E/ACRA    (30797): 	... 13 more
+01-10 13:47:47.403 I/System  (30797): exec(logcat -t 100 -v time @ org.acra.collector.LogCatCollector.collectLogCat:100)
+01-10 13:47:47.423 E/HardwareRenderer(30797): setHWUICacheConfig must be called in UI thread. Skip!
+01-10 13:47:47.443 D/FindExtension(30797): FindExtension: before mHardwareRenderer.initialize, mSurface.isValid() = true
+01-10 13:47:47.503 I/System  (30797): exec(dumpsys meminfo 30797 @ org.acra.collector.DumpSysCollector.collectMemInfo:54)
+01-10 13:47:49.523 D/Process (30797): killProcess, pid=30797
+01-10 13:47:49.523 D/Process (30797): org.acra.builder.ReportExecutor.endApplication:270 org.acra.builder.ReportExecutor.dialogAndEnd:239 org.acra.builder.ReportExecutor.access$400:41 
+01-10 13:47:49.673 I/art     (30870): Late-enabling -Xcheck:jni
+01-10 13:47:49.673 I/art     (30870): VMHOOK: rlim_cur : 0 pid:30870
+01-10 13:47:49.713 I/InstantRun(30870): Instant Run Runtime started. Android package is com.gaoyuan.acraclientdemo, real application class is com.gaoyuan.acraclientdemo.MyApp.
+01-10 13:47:49.713 W/InstantRun(30870): No instant run dex files added to classpath
+01-10 13:47:49.753 I/ACRA    (30870): ACRA is enabled for com.gaoyuan.acraclientdemo, initializing...
+01-10 13:47:49.833 I/ACRA    (30820): Sending report /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:45:58.764+08:00.stacktrace
+01-10 13:47:49.883 D/libc    (30820): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:49.883 D/libc    (30820): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:49.883 D/libc    (30820): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:49.883 D/libc    (30820): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:49.913 E/ACRA    (30820): Failed to send crash report for /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:45:58.764+08:00.stacktrace
+01-10 13:47:49.913 E/ACRA    (30820): org.acra.sender.ReportSenderException: Error while sending JSON report via Http POST
+01-10 13:47:49.913 E/ACRA    (30820): 	at org.acra.sender.HttpSender.send(HttpSender.java:239)
+01-10 13:47:49.913 E/ACRA    (30820): 	at org.acra.sender.ReportDistributor.sendCrashReport(ReportDistributor.java:102)
+01-10 13:47:49.913 E/ACRA    (30820): 	at org.acra.sender.ReportDistributor.distribute(ReportDistributor.java:70)
+01-10 13:47:49.913 E/ACRA    (30820): 	at org.acra.sender.SenderService.onHandleIntent(SenderService.java:69)
+01-10 13:47:49.913 E/ACRA    (30820): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+01-10 13:47:49.913 E/ACRA    (30820): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+01-10 13:47:49.913 E/ACRA    (30820): 	at android.os.Looper.loop(Looper.java:155)
+01-10 13:47:49.913 E/ACRA    (30820): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+01-10 13:47:49.913 E/ACRA    (30820): Caused by: java.net.ConnectException: failed to connect to /192.168.1.160 (port 80) after 5000ms: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:49.913 E/ACRA    (30820): 	at libcore.io.IoBridge.isConnected(IoBridge.java:238)
+01-10 13:47:49.913 E/ACRA    (30820): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:171)
+01-10 13:47:49.913 E/ACRA    (30820): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+01-10 13:47:49.913 E/ACRA    (30820): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+01-10 13:47:49.913 E/ACRA    (30820): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+01-10 13:47:49.913 E/ACRA    (30820): 	at java.net.Socket.connect(Socket.java:882)
+01-10 13:47:49.913 E/ACRA    (30820): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:139)
+01-10 13:47:49.913 E/ACRA    (30820): 	at com.android.okhttp.Connection.connect(Connection.java:148)
+01-10 13:47:49.913 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:276)
+01-10 13:47:49.913 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+01-10 13:47:49.913 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+01-10 13:47:49.913 E/ACRA    (30820): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:106)
+01-10 13:47:49.913 E/ACRA    (30820): 	at org.acra.util.HttpRequest.send(HttpRequest.java:145)
+01-10 13:47:49.913 E/ACRA    (30820): 	at org.acra.sender.HttpSender.send(HttpSender.java:235)
+01-10 13:47:49.913 E/ACRA    (30820): 	... 7 more
+01-10 13:47:49.913 E/ACRA    (30820): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:49.913 E/ACRA    (30820): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+01-10 13:47:49.913 E/ACRA    (30820): 	... 20 more
+01-10 13:47:49.943 D/Atlas   (30870): Validating map...
+01-10 13:47:50.013 D/FindExtension(30870): FindExtension: before mHardwareRenderer.initialize, mSurface.isValid() = true
+01-10 13:47:50.013 I/Adreno-EGL(30870): <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: LNXBUILD_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006+PATCH[ES]_msm8916_64_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006__release_ENGG (Iba0e932ba2)
+01-10 13:47:50.013 I/Adreno-EGL(30870): OpenGL ES Shader Compiler Version: E031.25.03.01
+01-10 13:47:50.013 I/Adreno-EGL(30870): Build Date: 03/09/15 Mon
+01-10 13:47:50.013 I/Adreno-EGL(30870): Local Branch: 
+01-10 13:47:50.013 I/Adreno-EGL(30870): Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006
+01-10 13:47:50.013 I/Adreno-EGL(30870): Local Patches: 7ff34bcc0bbd0887eacd18980e911eb61bd8f4e0 es20: fix apilog_close calling sequence in context_delete
+01-10 13:47:50.013 I/Adreno-EGL(30870):                  d74aa161a12b9c6fc6332151
+01-10 13:47:50.073 D/FindExtension(30870): FindExtension: before mHardwareRenderer.initialize, mSurface.isValid() = true
+01-10 13:47:50.093 I/InputMethodManager(30870): [startInputInner] EditorInfo { packageName=com.gaoyuan.acraclientdemo, inputType=0x20001, imeOptions=0x40000006, privateImeOptions=null }, windowGainingFocus=android.view.ViewRootImpl$W@34b4b1d2, mServedView=android.widget.EditText{1989e2a3 VFED..CL .F....ID 0,320-910,507}, mServedInputConnectionWrapper=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@fd559a0
+01-10 13:47:55.343 I/art     (30912): Late-enabling -Xcheck:jni
+01-10 13:47:55.343 I/art     (30912): VMHOOK: rlim_cur : 0 pid:30912
+01-10 13:47:55.463 I/InstantRun(30912): Instant Run Runtime started. Android package is com.gaoyuan.acraclientdemo, real application class is com.gaoyuan.acraclientdemo.MyApp.
+01-10 13:47:55.463 W/InstantRun(30912): No instant run dex files added to classpath
+01-10 13:47:55.643 D/FindExtension(30870): FindExtension: before mHardwareRenderer.initialize, mSurface.isValid() = true
+01-10 13:47:55.643 W/IInputConnectionWrapper(30870): reportFullscreenMode on inactive InputConnection
+01-10 13:47:55.693 I/ACRA    (30912): Sending report /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:45:58.764+08:00.stacktrace
+01-10 13:47:55.773 D/libc    (30912): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:55.773 D/libc    (30912): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:55.773 D/libc    (30912): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:55.773 D/libc    (30912): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:55.903 E/ACRA    (30912): Failed to send crash report for /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:45:58.764+08:00.stacktrace
+01-10 13:47:55.903 E/ACRA    (30912): org.acra.sender.ReportSenderException: Error while sending JSON report via Http POST
+01-10 13:47:55.903 E/ACRA    (30912): 	at org.acra.sender.HttpSender.send(HttpSender.java:239)
+01-10 13:47:55.903 E/ACRA    (30912): 	at org.acra.sender.ReportDistributor.sendCrashReport(ReportDistributor.java:102)
+01-10 13:47:55.903 E/ACRA    (30912): 	at org.acra.sender.ReportDistributor.distribute(ReportDistributor.java:70)
+01-10 13:47:55.903 E/ACRA    (30912): 	at org.acra.sender.SenderService.onHandleIntent(SenderService.java:69)
+01-10 13:47:55.903 E/ACRA    (30912): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+01-10 13:47:55.903 E/ACRA    (30912): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+01-10 13:47:55.903 E/ACRA    (30912): 	at android.os.Looper.loop(Looper.java:155)
+01-10 13:47:55.903 E/ACRA    (30912): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+01-10 13:47:55.903 E/ACRA    (30912): Caused by: java.net.ConnectException: failed to connect to /192.168.1.160 (port 80) after 5000ms: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:55.903 E/ACRA    (30912): 	at libcore.io.IoBridge.isConnected(IoBridge.java:238)
+01-10 13:47:55.903 E/ACRA    (30912): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:171)
+01-10 13:47:55.903 E/ACRA    (30912): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+01-10 13:47:55.903 E/ACRA    (30912): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+01-10 13:47:55.903 E/ACRA    (30912): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+01-10 13:47:55.903 E/ACRA    (30912): 	at java.net.Socket.connect(Socket.java:882)
+01-10 13:47:55.903 E/ACRA    (30912): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:139)
+01-10 13:47:55.903 E/ACRA    (30912): 	at com.android.okhttp.Connection.connect(Connection.java:148)
+01-10 13:47:55.903 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:276)
+01-10 13:47:55.903 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+01-10 13:47:55.903 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+01-10 13:47:55.903 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:106)
+01-10 13:47:55.903 E/ACRA    (30912): 	at org.acra.util.HttpRequest.send(HttpRequest.java:145)
+01-10 13:47:55.903 E/ACRA    (30912): 	at org.acra.sender.HttpSender.send(HttpSender.java:235)
+01-10 13:47:55.903 E/ACRA    (30912): 	... 7 more
+01-10 13:47:55.903 E/ACRA    (30912): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:55.903 E/ACRA    (30912): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+01-10 13:47:55.903 E/ACRA    (30912): 	... 20 more
+01-10 13:47:55.903 I/ACRA    (30912): Sending report /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:47:47.502+08:00.stacktrace
+01-10 13:47:55.973 D/libc    (30912): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:55.973 D/libc    (30912): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:55.973 D/libc    (30912): [NET] android_getaddrinfofornet+,hn 13(0x3139322e313638),sn(),hints(known),family 0,flags 4
+01-10 13:47:55.973 D/libc    (30912): [NET] android_getaddrinfofornet-, SUCCESS
+01-10 13:47:55.983 E/ACRA    (30912): Failed to send crash report for /data/data/com.gaoyuan.acraclientdemo/app_ACRA-approved/2017-01-10T13:47:47.502+08:00.stacktrace
+01-10 13:47:55.983 E/ACRA    (30912): org.acra.sender.ReportSenderException: Error while sending JSON report via Http POST
+01-10 13:47:55.983 E/ACRA    (30912): 	at org.acra.sender.HttpSender.send(HttpSender.java:239)
+01-10 13:47:55.983 E/ACRA    (30912): 	at org.acra.sender.ReportDistributor.sendCrashReport(ReportDistributor.java:102)
+01-10 13:47:55.983 E/ACRA    (30912): 	at org.acra.sender.ReportDistributor.distribute(ReportDistributor.java:70)
+01-10 13:47:55.983 E/ACRA    (30912): 	at org.acra.sender.SenderService.onHandleIntent(SenderService.java:69)
+01-10 13:47:55.983 E/ACRA    (30912): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+01-10 13:47:55.983 E/ACRA    (30912): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+01-10 13:47:55.983 E/ACRA    (30912): 	at android.os.Looper.loop(Looper.java:155)
+01-10 13:47:55.983 E/ACRA    (30912): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+01-10 13:47:55.983 E/ACRA    (30912): Caused by: java.net.ConnectException: failed to connect to /192.168.1.160 (port 80) after 5000ms: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:55.983 E/ACRA    (30912): 	at libcore.io.IoBridge.isConnected(IoBridge.java:238)
+01-10 13:47:55.983 E/ACRA    (30912): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:171)
+01-10 13:47:55.983 E/ACRA    (30912): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+01-10 13:47:55.983 E/ACRA    (30912): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+01-10 13:47:55.983 E/ACRA    (30912): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+01-10 13:47:55.983 E/ACRA    (30912): 	at java.net.Socket.connect(Socket.java:882)
+01-10 13:47:55.983 E/ACRA    (30912): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:139)
+01-10 13:47:55.983 E/ACRA    (30912): 	at com.android.okhttp.Connection.connect(Connection.java:148)
+01-10 13:47:55.983 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:276)
+01-10 13:47:55.983 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+01-10 13:47:55.983 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:373)
+01-10 13:47:55.983 E/ACRA    (30912): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:106)
+01-10 13:47:55.983 E/ACRA    (30912): 	at org.acra.util.HttpRequest.send(HttpRequest.java:145)
+01-10 13:47:55.983 E/ACRA    (30912): 	at org.acra.sender.HttpSender.send(HttpSender.java:235)
+01-10 13:47:55.983 E/ACRA    (30912): 	... 7 more
+01-10 13:47:55.983 E/ACRA    (30912): Caused by: android.system.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+01-10 13:47:55.983 E/ACRA    (30912): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+01-10 13:47:55.983 E/ACRA    (30912): 	... 20 more
+01-10 13:48:15.403 W/art     (30870): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+01-10 13:48:15.603 D/FindExtension(30870): FindExtension: before mHardwareRenderer.initialize, mSurface.isValid() = true
+01-10 13:48:15.603 I/Adreno-EGL(30870): <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: LNXBUILD_AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006+PATCH[ES]_msm8916_64_refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006__release_ENGG (Iba0e932ba2)
+01-10 13:48:15.603 I/Adreno-EGL(30870): OpenGL ES Shader Compiler Version: E031.25.03.01
+01-10 13:48:15.603 I/Adreno-EGL(30870): Build Date: 03/09/15 Mon
+01-10 13:48:15.603 I/Adreno-EGL(30870): Local Branch: 
+01-10 13:48:15.603 I/Adreno-EGL(30870): Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.BR.1.1.2_RB1.05.00.00.031.006
+01-10 13:48:15.603 I/Adreno-EGL(30870): Local Patches: 7ff34bcc0bbd0887eacd18980e911eb61bd8f4e0 es20: fix apilog_close calling sequence in context_delete
+01-10 13:48:15.603 I/Adreno-EGL(30870):                  d74aa161a12b9c6fc6332151
+01-10 13:48:15.683 W/IInputConnectionWrapper(30870): reportFullscreenMode on inactive InputConnection
+01-10 13:48:16.703 E/ACRA    (30870): ACRA caught a IllegalStateException for com.gaoyuan.acraclientdemo
+01-10 13:48:16.703 E/ACRA    (30870): java.lang.IllegalStateException: Could not execute method for android:onClick
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:293)
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.view.View.performClick(View.java:4785)
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.view.View$PerformClick.run(View.java:19869)
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.os.Handler.handleCallback(Handler.java:739)
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.os.Looper.loop(Looper.java:155)
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.app.ActivityThread.main(ActivityThread.java:5721)
+01-10 13:48:16.703 E/ACRA    (30870): 	at java.lang.reflect.Method.invoke(Native Method)
+01-10 13:48:16.703 E/ACRA    (30870): 	at java.lang.reflect.Method.invoke(Method.java:372)
+01-10 13:48:16.703 E/ACRA    (30870): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1029)
+01-10 13:48:16.703 E/ACRA    (30870): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:824)
+01-10 13:48:16.703 E/ACRA    (30870): Caused by: java.lang.reflect.InvocationTargetException
+01-10 13:48:16.703 E/ACRA    (30870): 	at java.lang.reflect.Method.invoke(Native Method)
+01-10 13:48:16.703 E/ACRA    (30870): 	at java.lang.reflect.Method.invoke(Method.java:372)
+01-10 13:48:16.703 E/ACRA    (30870): 	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+01-10 13:48:16.703 E/ACRA    (30870): 	... 10 more
+01-10 13:48:16.703 E/ACRA    (30870): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+01-10 13:48:16.703 E/ACRA    (30870): 	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+01-10 13:48:16.703 E/ACRA    (30870): 	... 13 more
+01-10 13:48:16.713 E/HardwareRenderer(30870): setHWUICacheConfig must be called in UI thread. Skip!
+01-10 13:48:16.733 I/System  (30870): exec(logcat -t 100 -v time @ org.acra.collector.LogCatCollector.collectLogCat:100)",
+    "PACKAGE_NAME": "com.gaoyuan.acraclientdemo",
+    "PHONE_MODEL": "HTC M8si",
+    "PRODUCT": "m8qltuhl_htccn_chs_2",
+    "REPORT_ID": "f9333879-3d9d-42be-8844-55a3d1450c4f",
+    "SHARED_PREFERENCES": {
+        "": true,
+        "default": {
+            "acra": {
+                "lastVersionNr": 1,
+                "legacyAlreadyConvertedTo4": {
+                    "8": {
+                        "0": true
+                    }
+                }
+            }
+        }
+    },
+    "STACK_TRACE": "java.lang.IllegalStateException: Could not execute method for android:onClick
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:293)
+	at android.view.View.performClick(View.java:4785)
+	at android.view.View$PerformClick.run(View.java:19869)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:155)
+	at android.app.ActivityThread.main(ActivityThread.java:5721)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1029)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:824)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+	... 10 more
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+	... 13 more
+java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+	at android.view.View.performClick(View.java:4785)
+	at android.view.View$PerformClick.run(View.java:19869)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:155)
+	at android.app.ActivityThread.main(ActivityThread.java:5721)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1029)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:824)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+	... 13 more
+java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+	at com.gaoyuan.acraclientdemo.MainActivity.nullPoniter(MainActivity.java:26)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:288)
+	at android.view.View.performClick(View.java:4785)
+	at android.view.View$PerformClick.run(View.java:19869)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:155)
+	at android.app.ActivityThread.main(ActivityThread.java:5721)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1029)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:824)
+",
+    "TOTAL_MEM_SIZE": 10038362112,
+    "USER_APP_START_DATE": "2017-01-10T13:47:49.760+08:00",
+    "USER_COMMENT": 66666666,
+    "USER_CRASH_DATE": "2017-01-10T13:48:16.782+08:00",
+    "USER_EMAIL": ""
+}
