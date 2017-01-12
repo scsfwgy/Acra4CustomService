@@ -109,5 +109,3 @@ ACRA is used in 2.68% (See AppBrain/stats) of all apps on Google Play as of Feb 
 	* 保存到数据库
 
 * TODO：图形化界面分析崩溃信息
-
-* 工程代码：[https://github.com/scsfwgy/Acra4CustomService](https://github.com/scsfwgy/Acra4CustomService "https://github.com/scsfwgy/Acra4CustomService")
