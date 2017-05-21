@@ -1,4 +1,4 @@
-##简介
+## 简介
 >ACRA is a library enabling Android Application to automatically post their crash reports to a GoogleDoc form. It is targetted to android applications developers to help them get data from their applications when they crash or behave erroneously.
 ACRA is used in 2.68% (See AppBrain/stats) of all apps on Google Play as of Feb 2016. That's over 53K apps using ACRA. And since the average US user has 41 apps installed on their phone that means there is a 70% chance that ACRA is running on any phone. That means ACRA is running on over a billion devices.
 
@@ -14,17 +14,17 @@ ACRA is used in 2.68% (See AppBrain/stats) of all apps on Google Play as of Feb 
 * 开源地址 [https://github.com/ACRA/acra](https://github.com/ACRA/acra "https://github.com/ACRA/acra")
 * 文档 [https://github.com/ACRA/acra/wiki/BasicSetup](https://github.com/ACRA/acra/wiki/BasicSetup "https://github.com/ACRA/acra/wiki/BasicSetup")
 
-##成就
+## 成就
 ![这里写图片描述](http://img.blog.csdn.net/20170110152203985?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2d5c2NzZg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ![这里写图片描述](http://img.blog.csdn.net/20170110152215219?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2d5c2NzZg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-##初衷
+## 初衷
 * 官方文档为纯英文版，并且描述并不是一下子就能看懂。特别是自定义发送数据到指定服务器。特测试并记录。
 * 网上资料没有自定义数据转化为表的形式，手动创建了对应数据的表，方便录入数据。
 * 后端数据库已处理好，可以直接使用。
 * 演示工程已可以直接使用。
 
-##客户端配置
+## 客户端配置
 
 * crash 以toast形式弹出
 
@@ -79,7 +79,7 @@ ACRA is used in 2.68% (See AppBrain/stats) of all apps on Google Play as of Feb 
 		        mode = ReportingInteractionMode.TOAST,//异常时弹出信息的类型
 		        resToastText = R.string.crash_toast_text)//弹出的文字
 
-###服务端配置
+## 服务端配置
 
 	// Control
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -94,11 +94,11 @@ ACRA is used in 2.68% (See AppBrain/stats) of all apps on Google Play as of Feb 
 		processModel(str);
 	}
 
-###数据库信息收集
+## 数据库信息收集
 ![这里写图片描述](http://img.blog.csdn.net/20170110152249485?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2d5c2NzZg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ![这里写图片描述](http://img.blog.csdn.net/20170110152258310?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2d5c2NzZg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-###demo代码
+## demo代码
 * 客户端多种模式配置
 	* Toast（可选），然后发送crash到数据库
 	* Dialog，然后发送到服务器（需要用户提交信息，并且手动同意）。
@@ -109,3 +109,8 @@ ACRA is used in 2.68% (See AppBrain/stats) of all apps on Google Play as of Feb 
 	* 保存到数据库
 
 * TODO：图形化界面分析崩溃信息
+
+## 总结
+* 如果了解了上述所说，可以看出acra是非常灵活的，可以深度自定义，完全看开发者自己需求。
+* 由于“墙”，原有的默认依赖谷歌表单的形式是使用不了的。
+* 推荐使用腾讯的bugly代替acra进行处理应用的异常处理。请自行查资料如何使用。当然，深度定制还是acra比较强大。
